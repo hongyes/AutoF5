@@ -1,0 +1,4 @@
+E:\dd\Github\AutoF5\AutoF5Lib\bin\Debug\AutoF5Lib.dll
+E:\dd\Github\AutoF5\AutoF5Lib\bin\Debug\AutoF5Lib.pdb
+E:\dd\Github\AutoF5\AutoF5Lib\obj\Debug\AutoF5Lib.dll
+E:\dd\Github\AutoF5\AutoF5Lib\obj\Debug\AutoF5Lib.pdb

@@ -86,9 +86,9 @@ namespace AutoF5Lib
         {
             try
             {
+                application.Response.ContentType = "text/plain";
                 application.Response.Write(content);
-                application.Response.Flush();
-                application.Response.Close();
+                application.Response.End();
                 return true;
             }
             catch{
