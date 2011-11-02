@@ -7,7 +7,7 @@
 4. See the changes immediately on the browser
 
 ##See Demo
-<a target="_blank" href="http://www.screencast.com/t/zgDQA4Be8">
+<a target="_blank" href="http://www.youtube.com/watch?v=jVjVbr8mjfo&hd=1">
 <img alt="AutoF5 Demo" src="https://github.com/hongyes/AutoF5/raw/master/AutoF5Demo.png" width="600" />
 </a>
 
