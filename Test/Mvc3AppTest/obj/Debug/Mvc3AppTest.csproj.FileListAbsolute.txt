@@ -1,9 +1,8 @@
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\Mvc3AppTest.dll
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\Mvc3AppTest.pdb
-E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\AutoF5Lib.dll
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\EntityFramework.dll
-E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\AutoF5Lib.pdb
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\EntityFramework.xml
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\obj\Debug\Mvc3AppTest.csprojResolveAssemblyReference.cache
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\obj\Debug\Mvc3AppTest.dll
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\obj\Debug\Mvc3AppTest.pdb
+E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\AutoF5Lib.dll

@@ -1,0 +1,14 @@
+<configuration>
+    <system.web>
+      <compilation debug="true"/>
+      <httpModules>
+        <add name="AutoF5Module" type="AutoF5Lib.AutoF5Module"/>
+      </httpModules>
+    </system.web>
+    <system.webServer>
+      <validation validateIntegratedModeConfiguration="false" ></validation>
+      <modules runAllManagedModulesForAllRequests="true">
+        <add name="AutoF5Module" type="AutoF5Lib.AutoF5Module" />
+      </modules>
+  </system.webServer>
+</configuration>
