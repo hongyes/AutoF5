@@ -34,6 +34,7 @@ namespace AutoF5Lib
         private HttpApplication application;
         public void Dispose()
         {
+            //AutoF5.Stop();
         }
 
         public void Init(HttpApplication context)
@@ -64,12 +65,12 @@ namespace AutoF5Lib
                 if (long.TryParse(tickStr, out tick))
                 {
                     if (tick == 0)
-                        return Content(AutoF5.LastUpdateTime.ToString());
+                        return Content(AutoF5.ToJson());
 
                     for (int i = 0; i < 50; i++)
                     {
                         if (tick < AutoF5.LastUpdateTime)
-                            return Content(AutoF5.LastUpdateTime.ToString());
+                            return Content(AutoF5.ToJson());
                         else
                             Thread.Sleep(400);
                     }

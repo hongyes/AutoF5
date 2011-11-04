@@ -6,3 +6,4 @@ E:\dd\Github\AutoF5\Test\Mvc3AppTest\obj\Debug\Mvc3AppTest.csprojResolveAssembly
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\obj\Debug\Mvc3AppTest.dll
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\obj\Debug\Mvc3AppTest.pdb
 E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\AutoF5Lib.dll
+E:\dd\Github\AutoF5\Test\Mvc3AppTest\bin\AutoF5Lib.pdb

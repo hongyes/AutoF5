@@ -5,6 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoF5Lib", "AutoF5Lib\Auto
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{FFC1B907-8D25-47FE-B3CE-39EF41627632}"
 	ProjectSection(SolutionItems) = preProject
+		AutoF5Demo.png = AutoF5Demo.png
 		NugetPackage\Package.nuspec = NugetPackage\Package.nuspec
 		README.md = README.md
 		NugetPackage\content\web.config.transform = NugetPackage\content\web.config.transform
@@ -13,6 +14,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D68FB18E-BD22-482F-979B-9C55CE6C1046}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc3AppTest", "Test\Mvc3AppTest\Mvc3AppTest.csproj", "{B89E34E5-676C-4A35-804F-74633E254D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc4AppTest", "Mvc4AppTest\Mvc4AppTest.csproj", "{671B8D4D-F881-4C86-A4EC-E98A1434A3F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,11 +31,16 @@ Global
 		{B89E34E5-676C-4A35-804F-74633E254D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B89E34E5-676C-4A35-804F-74633E254D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B89E34E5-676C-4A35-804F-74633E254D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671B8D4D-F881-4C86-A4EC-E98A1434A3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671B8D4D-F881-4C86-A4EC-E98A1434A3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671B8D4D-F881-4C86-A4EC-E98A1434A3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671B8D4D-F881-4C86-A4EC-E98A1434A3F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B89E34E5-676C-4A35-804F-74633E254D47} = {D68FB18E-BD22-482F-979B-9C55CE6C1046}
+		{671B8D4D-F881-4C86-A4EC-E98A1434A3F9} = {D68FB18E-BD22-482F-979B-9C55CE6C1046}
 	EndGlobalSection
 EndGlobal

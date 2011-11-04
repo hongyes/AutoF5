@@ -49,6 +49,7 @@
     <Compile Include="AutoF5.cs" />
     <Compile Include="AutoF5Module.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RefreshType.cs" />
     <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>

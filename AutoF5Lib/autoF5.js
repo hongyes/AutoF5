@@ -26,16 +26,39 @@ window.onload = function () {
         xmlhttp.send();
     }
 
-    function receiveChange(serverTick) {
-        if (!tick)
-            tick = serverTick;
-        else if (serverTick && tick < serverTick) {
-            window.location.reload();
-            tick = serverTick;
+    function receiveChange(res) {
+
+        if (res) {
+            var resObj = eval('(' + res + ')');
+            var serverTick = resObj.serverTick;
+            var type = resObj.type;
+            if (!tick)
+                tick = serverTick;
+            else if (serverTick && tick < serverTick) {
+                if (type == 0)
+                    window.location.reload();
+                else if (type == 1)
+                    updateStylesheets();
+                
+                tick = serverTick;
+            }
         }
 
         checkChange(receiveChange);
     }
+
+    function updateStylesheets() {
+        var i, a, s;
+        a = document.getElementsByTagName('link');
+        for (i = 0; i < a.length; i++) {
+            s = a[i];
+            if (s.rel.toLowerCase().indexOf('stylesheet') >= 0 && s.href) {
+                var h = s.href.replace(/(&|\?)forceReload=\d*/g, '');
+                s.href = h + (h.indexOf('?') >= 0 ? '&' : '?') + 'forceReload=' + (new Date().valueOf());
+            }
+        }
+    }
+
 
     checkChange(receiveChange);
 };
