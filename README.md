@@ -15,18 +15,18 @@
 
 ##Release Notes
 
-      ###1.3 (11/4/2011)
+      1.3 (11/4/2011)
       Support dynamically loading CSS file
       Remove file monitors for cs, vb, config and other coding files
       
-      ###1.2 (11/1/2011)
+      1.2 (11/1/2011)
       Support Chrome
       
-      ###1.1 (10/26/2011)
+      1.1 (10/26/2011)
       Fixed virtual path mapping incorrect bugs in website template
       Add module in webserver for IIS intergrated mode
       
-      ###1.0 (10/25/2011)
+      1.0 (10/25/2011)
       Initialization in http module
       Auto disabled in release mode
       Supports hard coded file extension include cshtml, vbhtml, cs, vb, aspx, ascx, master, css, js, html, htm, config files
